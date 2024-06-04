@@ -1,0 +1,65 @@
+.header {
+  padding: 32px;
+  background-color: #5b99b4;
+  margin-bottom: 32px;
+  color: #05080a;
+  font-weight: Bold;
+  text-align: center;
+}
+
+.inputContainer {
+  padding: 16px;
+}
+
+.inputLabel {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.input {
+  width: 450px;
+  height: 40px;
+  border-color: #5b99b4;
+  border-radius: 8px;
+}
+
+.addButton {
+  width: 40px;
+  height: 40px;
+  background-color: #9aa5d0;
+  font-size: 24px;
+  border-color: #5b99b4;
+  border-radius: 8px;
+  margin-left: 16px;
+}
+
+.listItem {
+  padding: 16px;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+  color: #05080a;
+  font-weight: bold;
+  margin-right: 270px;
+  margin-left: 270px;
+  margin-top: 80px;
+}
+
+.divCheckBox {
+  display: flex;
+  flex-direction: row;
+  background-color: #9aa5d0;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  width: 200px;
+  border-radius: 20px;
+  outline: 3px soli7 red;
+}
